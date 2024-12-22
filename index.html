@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Article preview component</title>
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="cont_wrap">
+      <div class="cont_top">
+        <div class="cont_top_img_cont">
+          <img src="/images/drawers.jpg" alt="Green drawers against a white brick wall with two pictures and a brown vase on it" class="cont_top_img">
+        </div>
+      </div>
+      <div class="cont_right">
+        <div class="right_wrap">
+          <h1 class="cont_right_h1 manrope fw700">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
+          
+          <p class="cont_right_p manrope fw500">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p>
+        </div>
+        
+        <div class="cont_right_details right_wrap" id="cont_right_details">
+          <div class="cont_right_details_left">
+            <div class="cont_right_details_left_img_cont">
+              <img src="/images/avatar-michelle.jpg" alt="Avatar of user" class="cont_right_details_left_img">
+            </div>
+            <div class="cont_right_details_left_name_date">
+              <h2 class="cont_right_details_left_name manrope fw700">Michelle Appleton</h2>
+              <p class="cont_right_details_left_date manrope fw500">28 Jun 2020</p>
+            </div>
+          </div>
+  
+          <div class="cont_right_details_left_hidden" id="hidden">
+            <p class="cont_right_details_left_p manrope fw500">Share</p>
+  
+            <div class="cont_right_details_left_icons">
+              <a href="https://facebook.com" target="_blank" class="cont_right_details_left_icon_img_cont">
+                <img src="/images/icon-facebook.svg" alt="facebook logo" class="cont_right_details_left_icon_img">
+              </a>
+  
+              <a href="https://x.com" target="_blank" class="cont_right_details_left_icon_img_cont">
+                <img src="/images/icon-twitter.svg" alt="twitter logo" class="cont_right_details_left_icon_img">
+              </a>
+  
+              <a href="https://pinterest.com" target="_blank" class="cont_right_details_left_icon_img_cont">
+                <img src="/images/icon-pinterest.svg" alt="pinterest logo" class="cont_right_details_left_icon_img">
+              </a>
+            </div>
+          </div>
+  
+          <div class="cont_right_details_right">
+            <button class="cont_right_details_right_btn" id="share_btn">
+              <span class="cont_right_details_right_btn_img"></span>
+            </button>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution manrope">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="fw700" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Achigyus" class="fw700" target="_blank">Achigyus</a>.
+  </div>
+  <script src="/main.js"></script>
+</body>
+</html>
