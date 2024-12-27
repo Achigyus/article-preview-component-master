@@ -176,6 +176,7 @@ body {
     justify-content: center;
     z-index: 1;
     position: relative;
+    cursor: pointer;
 }
 
 .cont_right_details_right_btn.active {
